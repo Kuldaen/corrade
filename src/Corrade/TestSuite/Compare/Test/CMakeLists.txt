@@ -38,7 +38,6 @@ corrade_add_test(TestSuiteCompareFileTest FileTest.cpp
         FileTestFiles/base.txt
         FileTestFiles/different.txt
         FileTestFiles/empty.txt
-        FileTestFiles/hýždě.txt
         FileTestFiles/smaller.txt)
 target_include_directories(TestSuiteCompareFileTest PRIVATE ${CMAKE_CURRENT_BINARY_DIR})
 corrade_add_test(TestSuiteCompareFileToStringTest FileToStringTest.cpp
@@ -46,7 +45,6 @@ corrade_add_test(TestSuiteCompareFileToStringTest FileToStringTest.cpp
         FileTestFiles/base.txt
         FileTestFiles/different.txt
         FileTestFiles/empty.txt
-        FileTestFiles/hýždě.txt
         FileTestFiles/smaller.txt)
 target_include_directories(TestSuiteCompareFileToStringTest PRIVATE ${CMAKE_CURRENT_BINARY_DIR})
 corrade_add_test(TestSuiteCompareFloatingPointTest FloatingPointTest.cpp)
@@ -56,7 +54,6 @@ corrade_add_test(TestSuiteCompareStringToFileTest StringToFileTest.cpp
         FileTestFiles/base.txt
         FileTestFiles/different.txt
         FileTestFiles/empty.txt
-        FileTestFiles/hýždě.txt
         FileTestFiles/smaller.txt)
 target_include_directories(TestSuiteCompareStringToFileTest PRIVATE ${CMAKE_CURRENT_BINARY_DIR})
 

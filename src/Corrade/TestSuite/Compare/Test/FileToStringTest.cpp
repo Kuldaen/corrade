@@ -68,7 +68,7 @@ void FileToStringTest::empty() {
 }
 
 void FileToStringTest::utf8Filename() {
-    CORRADE_COMPARE_AS(Utility::Directory::join(FILETEST_DIR, "hýždě.txt"), "Hello World!", Compare::FileToString);
+//   CORRADE_COMPARE_AS(Utility::Directory::join(FILETEST_DIR, "hýždě.txt"), "Hello World!", Compare::FileToString);
 }
 
 void FileToStringTest::notFound() {
